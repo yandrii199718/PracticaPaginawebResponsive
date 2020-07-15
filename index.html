@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+
+<meta name="viemport" content="width=device-width, initial-scale=1.0">
+	<title>Ejemplo de diseno adaptativo</title>
+	<link rel="stylesheet" type="text/css" href="css/colors.css"/>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/great.css" media="screen and (min-width: 981px)"/>
+	<link rel="stylesheet" type="text/css" href="css/medium.css" media="screen and (min-width: 481px) and (max_width: 980px)"/>
+	<link rel="stylesheet" type="text/css" href="css/mini.css" media="screen and (max_width: 480px)"/>
+</head>
+<body>
+	<header>
+		<h1>El titulo de mi sitio web</h1>
+		<h2 class="display-great">Grande</h2>
+		<h2 class="display-medium">Mediano</h2>
+		<h2 class="display-mini">Mini</h2>
+	</header>
+	<div id= "wrapper">
+	<nav id="main-nav">
+		<h2>Mi menu</h2>
+		<ul class="menu display-great display-medium">
+	 <li> <a href="">Uno</a></li>
+	 <li> <a href="">Dos</a></li>
+	 <li> <a href="">Tres</a></li>		
+
+	</ul>
+
+	<select class="display-mini">
+		<option>Uno</option>
+		<option>Dos</option>
+		<option>Tres</option>
+
+	</select>
+	</nav>
+	<section id="main-section">
+		<h2>Mi contenido</h2>
+
+		<article>
+		 <h3><a href="">Entrada 1</a></h3>
+		 <p class="display-great display-medium">Un ipsum resumido....</p>	
+
+		</article>
+
+		<article>
+		 <h3><a href="">Entrada 2</a></h3>
+		 <p class="display-great display-medium">Un ipsum resumido....</p>	
+
+		</article>
+
+		<article>
+		 <h3><a href="">Entrada 3</a></h3>
+		 <p class="display-great display-medium">Un ipsum resumido....</p>	
+
+		</article>
+
+
+	</section>
+
+
+
+	</div>
+
+	<footer>
+		<p>El tipico pies que nadie lee
+		</p>
+
+		<select class="display-mini">
+			<option>Uno</option>
+			<option>Dos</option>
+			<option>Tres</option>
+		</select>
+	</footer>
+
+</body>
+</html>
